@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.boton {
+  @apply rounded-full bg-blue-900 text-red-200 w-full uppercase py-2 px-3;
+}
+
+.image{
+  @apply bg-[url('/foto.jpg')]  bg-center bg-cover }
