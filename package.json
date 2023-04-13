@@ -1,14 +1,16 @@
 {
   "name": "curterm",
+  "homepage": "https://leviusr.github.io/curterm/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
-    "css:watch": "tailwindcss -i ./src/index.css -o ./dist/index.css --watch",
-    "deploy": "gh-pages -d dist"
+    "css:watch": "tailwindcss -i ./src/index.css -o ./dist/index.css --watch"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
