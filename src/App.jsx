@@ -7,6 +7,7 @@ function App() {
   return (
     <div>
       <Routes>
+        <route path="//curterm" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/curriculum" element={<Curriculum />} />
