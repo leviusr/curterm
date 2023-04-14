@@ -6,8 +6,7 @@ import { Portafolio } from "./pages/portafolio";
 function App() {
   return (
     <div>
-      <Routes>
-        <route path="//curterm" element={<Home />} />
+      <Routes> 
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/curriculum" element={<Curriculum />} />
@@ -16,5 +15,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
