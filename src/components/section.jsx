@@ -5,8 +5,8 @@ import { Btnportafolio } from "./btnportafolio";
 export const Section = () => {
   return (
     <section className=" flex-col bg-suave w-screen h-80 sm:h-[400px]">
-      <div className="h-[60%] sm:h-[90%] flex justify-center items-center sm:pt-5 ">
-        <div className="border-2 border-fuerte items-center justify-center h-[90%] w-[50%] rounded-full image
+      <div className="h-[60%] sm:h-[90%] flex justify-center items-center sm:pt-5 bg-suave">
+        <div className=" bg-pink-100 border-2 border-fuerte items-center justify-center h-[90%] w-[50%] rounded-full image
           sm:h-[350px] sm:w-[350px]"></div>
       </div>
 

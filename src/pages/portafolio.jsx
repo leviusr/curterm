@@ -15,7 +15,6 @@ export const Portafolio = () => {
       </div>
       <button className="p-3 text-xl  sm:hidden" tye="button" onClick={handleClick}><AiOutlineMenu />
       </button>
-
       <div className="text-center text-5xl bg-primary">portafolio</div>
     </div>
   )

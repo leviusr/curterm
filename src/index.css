@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .boton {
-  @apply rounded-full bg-blue-900 text-red-200 w-full uppercase py-2 px-3;
+  @apply rounded-full hover:scale-105  bg-fuerte hover:bg-pink-200 hover:text-black text-red-200 w-full uppercase py-2 px-3;
 }
 
 .image{
-  @apply bg-[url('/foto.jpg')]  bg-center bg-cover}
+  @apply bg-[url('/seria.png')]  bg-center bg-cover}
 
 .menu{
   @apply sm:text-xl text-[12px]  sm:p-5
