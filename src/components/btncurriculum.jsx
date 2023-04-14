@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Menu } from "./menu";
 
 export const Btncurriculum = () => {
   const navigate = useNavigate();

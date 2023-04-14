@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 export const Btnhome = () => {
   const navigate = useNavigate();
   function handleClick() {
-    navigate("{/home");
+    navigate("/Home");
   }
   return (
     <div>

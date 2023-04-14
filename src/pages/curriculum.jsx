@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { BiPhoneCall, BiMailSend, BiBuildingHouse } from "react-icons/bi";
+import { Menu } from "../components/menu";
+import { AiOutlineMenu } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 
 export const Curriculum = () => {
+  const navigate = useNavigate();
+  function handleClick(){
+    navigate('/menumovil')
+  }
+  
   return (
     <div>
+      <div className="hidden sm:flex w-screen justify-center items-center">
+      <Menu />
+      </div>
+      <button className="p-3 text-xl  sm:hidden" tye="button" onClick={handleClick}><AiOutlineMenu />
+      </button>
       <div className=" w-[ h-screen sm:h-[1200px] p-2 flex text-[10px]">
         <div className="w-[35%]  h-screen sm:h-[1200px] flex-col">
           <div className="h-[28%] w-full justify-center items-center flex pt-5">

@@ -8,3 +8,7 @@
 
 .image{
   @apply bg-[url('/foto.jpg')]  bg-center bg-cover}
+
+.menu{
+  @apply sm:text-xl text-[12px]  sm:p-5
+}
