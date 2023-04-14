@@ -11,9 +11,10 @@ export const Curriculum = () => {
           </div>
           <div className="h-[50%] w-full flex p-1 sm:p-5">
             <div className="sm:border-2 sm:rounded-t-[60px] sm:rounded-b-3xl text-justify border border-fuerte rounded-t-3xl text-[8px] sm:text-xl p-2 sm:p-5">
+            <p className="pb-2 pt:5 text-[14px]  font-bold sm:text-5xl sm:pb-5 sm:text-">Sobre mí:</p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
               quas molestias inventore cumque, maiores nulla esse ducimus
-              perspiciatis, sunt, voluptatem repellen
+              perspiciatis, sunt, voluptatem repellen Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
             </div>
           </div>
           <div className="h-[18%] pt-3 w-full sm:p-5">
@@ -23,20 +24,20 @@ export const Curriculum = () => {
           </div>
         </div>
 
-        <div className="w-[2%] bg-primary h-screen"></div>
+        <div className="w-[2%] sm:h-[1000px] bg-primary h-screen"></div>
 
         {/* aca comienza la segunda seccion*/}
-        <div className="w-[63%] h-screen ">
+        <div className="w-[63%] h-screen sm:h-[1000px]">
           <div className="flex-col bg-primary h-[25%]">
             <div className="flex-col bg-primary">
-              <div className="h-1/3 font-bold text-xl pl-2 pt-4">
+              <div className="h-1/3 font-bold text-xl sm:text-7xl pl-2 pt-4">
                 Disnarda Romero
               </div>
-              <div className="h-1/3 flex text-[12px] pt-2 pl-2">
+              <div className="h-1/3 flex text-[12px] pt-2 pl-2 sm:text-3xl">
                 <div className="w-1/2 ">C.I:20.000.000</div>
                 <div className="w-1/2">Rif:V200000000</div>
               </div>
-              <div className="italic text-xl pb-3 text-center h-1/3 underline ">
+              <div className="italic text-xl pb-3 text-center h-1/3 underline sm:pt-8 sm:text-5xl ">
                 Cajera/vendedora
               </div>
             </div>
@@ -52,22 +53,22 @@ export const Curriculum = () => {
                     <div className="flex flex-col w-full h-[20%] bg-gray-300 mt-1"></div>
                   </div>
                 </div>
-                <div className="text-[12px] pt-2">
+                <div className="text-[12px] sm:text-2xl pt-5 sm:pl-10">
                   <ul>
                     <li className="flex pl-2 ">
-                      <div className="pt-1 pr-2">
+                      <div className="pt-1 pr-2 sm:pr-5">
                         <BiPhoneCall />
                       </div>
                       +58 414 000 0000
                     </li>
                     <li className="flex pl-2 ">
-                      <div className="pt-1 pr-2">
+                      <div className="pt-1 pr-2 sm:pr-5">
                         <BiMailSend />
                       </div>
                       correo@correo.com
                     </li>
                     <li className="flex pl-2">
-                      <div className="pt-1 pr-2">
+                      <div className="pt-1 pr-2 sm:pr-5">
                         <BiBuildingHouse />
                       </div>
                       Aca va tu direccion
@@ -81,62 +82,67 @@ export const Curriculum = () => {
                     Experiencia
                   </div>
                 </div>
+
                 <div className="flex flex-col w-full h-[20%] bg-gray-300 mt-1 p-1 rounded-xl">
                   <div className="flex">
-                    <div className="w-1/2 text-[12px]">Tiendas seven</div>
-                    <div className="w-1/2 text-end text-[8px] ">
+                    <div className="w-1/2 text-[12px] sm:text-2xl sm:pl-10">Tiendas seven</div>
+                    <div className="w-1/2 text-end text-[8px] sm:text-xl sm:pr-10 sm:italic ">
                       mayo 14 al 20 de diciembre
                     </div>
                   </div>
-                  <div className="font-thin">
+                  <div className="font-thin sm:text-xl sm:pl-10 ">
                     <p>
-                      Esto es un parrafo descriptivo del sitio de trabajo que se
-                      hizo
+                      <b>mayo 2022 - febrero 2023</b> - Los Teques Estado Miranda
                     </p>
+                    <p className="hidden sm:flex sm:text-xl sm:pt-2 font-serif">Aca va un resumen de lo que hiciste trabajando en esa empresa tienda o local</p>
                   </div>
                 </div>
+
                 <div className="flex flex-col w-full h-[20%] bg-gray-300 mt-1 p-1 rounded-xl">
                   <div className="flex">
-                    <div className="w-1/2 text-[12px]">Tiendas seven</div>
-                    <div className="w-1/2 text-end text-[8px] ">
+                    <div className="w-1/2 text-[12px] sm:text-2xl sm:pl-10">Tiendas seven</div>
+                    <div className="w-1/2 text-end text-[8px] sm:text-xl sm:pr-10 sm:italic ">
                       mayo 14 al 20 de diciembre
                     </div>
                   </div>
-                  <div className="font-thin">
+                  <div className="font-thin sm:text-xl sm:pl-10 ">
                     <p>
-                      Esto es un parrafo descriptivo del sitio de trabajo que se
-                      hizo
+                      <b>mayo 2022 - febrero 2023</b> - Los Teques Estado Miranda
                     </p>
+                    <p className="hidden sm:flex sm:text-xl sm:pt-2 font-serif">Aca va un resumen de lo que hiciste trabajando en esa empresa tienda o local</p>
                   </div>
-                </div>{" "}
+                </div>
+
                 <div className="flex flex-col w-full h-[20%] bg-gray-300 mt-1 p-1 rounded-xl">
                   <div className="flex">
-                    <div className="w-1/2 text-[12px]">Tiendas seven</div>
-                    <div className="w-1/2 text-end text-[8px] ">
+                    <div className="w-1/2 text-[12px] sm:text-2xl sm:pl-10">Tiendas seven</div>
+                    <div className="w-1/2 text-end text-[8px] sm:text-xl sm:pr-10 sm:italic ">
                       mayo 14 al 20 de diciembre
                     </div>
                   </div>
-                  <div className="font-thin">
+                  <div className="font-thin sm:text-xl sm:pl-10 ">
                     <p>
-                      Esto es un parrafo descriptivo del sitio de trabajo que se
-                      hizo
+                      <b>mayo 2022 - febrero 2023</b> - Los Teques Estado Miranda
                     </p>
+                    <p className="hidden sm:flex sm:text-xl sm:pt-2 font-serif">Aca va un resumen de lo que hiciste trabajando en esa empresa tienda o local</p>
                   </div>
-                </div>{" "}
+                </div>
+
                 <div className="flex flex-col w-full h-[20%] bg-gray-300 mt-1 p-1 rounded-xl">
-                  <div className="flex">
-                    <div className="w-1/2 text-[12px]">Tiendas seven</div>
-                    <div className="w-1/2 text-end text-[8px] ">
+                  <div className="flex ">
+                    <div className="w-1/2 text-[12px] sm:text-2xl sm:pl-10">Tiendas seven</div>
+                    <div className="w-1/2 text-end text-[8px] sm:text-xl sm:pr-10 sm:italic ">
                       mayo 14 al 20 de diciembre
                     </div>
                   </div>
-                  <div className="font-thin">
+                  <div className="font-thin sm:text-xl sm:pl-10 ">
                     <p>
-                      Esto es un parrafo descriptivo del sitio de trabajo que se
-                      hizo helou
+                      <b>mayo 2022 - febrero 2023</b> - Los Teques Estado Miranda
                     </p>
+                    <p className="hidden sm:flex sm:text-xl sm:pt-2 font-serif">Aca va un resumen de lo que hiciste trabajando en esa empresa tienda o local</p>
                   </div>
-                </div>{" "}
+                </div>
+
               </div>
             </div>
           </div>

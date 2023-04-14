@@ -7,4 +7,4 @@
 }
 
 .image{
-  @apply bg-[url('/foto.jpg')]  bg-center bg-cover }
+  @apply bg-[url('/foto.jpg')]  bg-center bg-cover}
