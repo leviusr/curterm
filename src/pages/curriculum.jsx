@@ -4,40 +4,46 @@ import { BiPhoneCall, BiMailSend, BiBuildingHouse } from "react-icons/bi";
 export const Curriculum = () => {
   return (
     <div>
-      <div className=" w-[ h-screen sm:h-[1000px] p-2 flex text-[10px]">
-        <div className="w-[35%]  h-screen sm:h-[1000px] flex-col">
+      <div className=" w-[ h-screen sm:h-[1200px] p-2 flex text-[10px]">
+        <div className="w-[35%]  h-screen sm:h-[1200px] flex-col">
           <div className="h-[28%] w-full justify-center items-center flex pt-5">
             <div className="p-1 flex border bg-[url('/foto.jpg')] bg-center bg-cover  border-black rounded-full justify-center items-center h-[80px] w-[80px] sm:h-[250px] sm:w-[250px] sm:border-[5px]"></div>
           </div>
           <div className="h-[50%] w-full flex p-1 sm:p-5">
             <div className="sm:border-2 sm:rounded-t-[60px] sm:rounded-b-3xl text-justify border border-fuerte rounded-t-3xl text-[8px] sm:text-xl p-2 sm:p-5">
-            <p className="pb-2 pt:5 text-[14px]  font-bold sm:text-5xl sm:pb-5 sm:text-">Sobre mí:</p>
+            <p className="pb-1 sm:leading-relaxed pt:5 text-[14px]  font-bold sm:text-5xl sm:pb-5 sm:text-">Sobre mí:</p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
               quas molestias inventore cumque, maiores nulla esse ducimus
               perspiciatis, sunt, voluptatem repellen Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.
             </div>
           </div>
-          <div className="h-[18%] pt-3 w-full sm:p-5">
+          <div className="h-[18%] sm:pt-0 pt-2 w-full sm:p-5">
             <div className="rounded-3xl sm:rounded-t-[60px] sm:p-5 sm:border-2 border border-fuerte text-[8px] p-2 w-full h-full">
-              cosas que te gustan
+              <p className="pl-1 text-[14px] sm:text-2xl font-bold ">Skills:</p>
+              <ul className="pl-5 list-disc sm:text-xl">
+                <li>cantar</li>
+                <li>bailar</li>
+                <li>soñar</li>
+                <li>Ejercitar</li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <div className="w-[2%] sm:h-[1000px] bg-primary h-screen"></div>
+        <div className="w-[2%] sm:h-[1200px] bg-primary h-screen"></div>
 
         {/* aca comienza la segunda seccion*/}
-        <div className="w-[63%] h-screen sm:h-[1000px]">
+        <div className="w-[63%] h-screen sm:h-[1200px]">
           <div className="flex-col bg-primary h-[25%]">
             <div className="flex-col bg-primary">
               <div className="h-1/3 font-bold text-xl sm:text-7xl pl-2 pt-4">
                 Disnarda Romero
               </div>
-              <div className="h-1/3 flex text-[12px] pt-2 pl-2 sm:text-3xl">
+              <div className="h-1/3 flex text-[12px] pt-5 pl-2 sm:text-3xl">
                 <div className="w-1/2 ">C.I:20.000.000</div>
                 <div className="w-1/2">Rif:V200000000</div>
               </div>
-              <div className="italic text-xl pb-3 text-center h-1/3 underline sm:pt-8 sm:text-5xl ">
+              <div className="italic text-xl pb-3 text-center h-1/3 underline sm:pt-10 sm:text-5xl ">
                 Cajera/vendedora
               </div>
             </div>
